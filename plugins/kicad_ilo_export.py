@@ -134,7 +134,7 @@ class InputLabsExportJLCPCB(InputLabsExport):
     def export_cpl(self):
         fields = ['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation']
         cpl_file = self.output_folder / 'jlcpcb_cpl.csv'
-        writer = csv.DictWriter(open(cpl_file, 'w'), fieldnames=fields)
+        writer = csv.DictWriter(open(cpl_file, 'w', encoding='utf8'), fieldnames=fields)
         writer.writeheader()
         footprints = self.get_footprints()
         for footprint in sorted(footprints, key=lambda x: x.GetReference()):
@@ -150,7 +150,7 @@ class InputLabsExportJLCPCB(InputLabsExport):
     def export_bom(self):
         fields = ['Comment', 'Designator', 'Footprint', 'LCSC Part Number']
         bom_file = self.output_folder / 'jlcpcb_bom.csv'
-        writer = csv.DictWriter(open(bom_file, 'w'), fieldnames=fields)
+        writer = csv.DictWriter(open(bom_file, 'w', encoding='utf8'), fieldnames=fields)
         writer.writeheader()
         footprints = sorted(
             self.get_footprints(),
@@ -161,7 +161,7 @@ class InputLabsExportJLCPCB(InputLabsExport):
             if not lcsc: continue
             group = list(group)  # Making a reusable copy.
             references = [x.GetReference() for x in group]
-            comment = group[0].GetFieldText('Group')
+            comment = group[0].GetFieldText('Value')
             mount = group[0].GetFieldText('Mount')
             writer.writerow({
                 'Comment': comment,
