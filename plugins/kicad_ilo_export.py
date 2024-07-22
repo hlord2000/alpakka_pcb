@@ -60,6 +60,7 @@ class InputLabsExport(pcbnew.ActionPlugin):
             'F.Mask': pcbnew.F_Mask,
             'B.Mask': pcbnew.B_Mask,
             'Edge.Cuts': pcbnew.Edge_Cuts,
+ 	        'Cmts_User': pcbnew.Cmts_User,
         }
         for name, layer in layers.items():
             plot_controller.SetLayer(layer)

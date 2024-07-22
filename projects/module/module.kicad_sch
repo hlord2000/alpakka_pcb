@@ -5451,6 +5451,12 @@
 		(uuid "1428b569-e3f1-4227-8a53-d6564472b5cc")
 	)
 	(junction
+		(at 265.43 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "190d2248-df55-4a88-a3f4-9211fb954940")
+	)
+	(junction
 		(at 176.53 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5581,6 +5587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d083548-8fa6-401f-b5d7-0481b8746d6a")
+	)
+	(junction
+		(at 262.89 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "511f8bc7-8b6e-4bcd-88be-05b56d965adc")
 	)
 	(junction
 		(at 69.85 27.94)
@@ -5853,16 +5865,8 @@
 		(uuid "fa3a992d-1c02-41a3-a5e3-c9b795990ee5")
 	)
 	(no_connect
-		(at 260.35 53.34)
-		(uuid "1502ddbe-677a-40a2-b5e0-46988198810b")
-	)
-	(no_connect
 		(at 176.53 58.42)
 		(uuid "442013cf-56a9-4de6-8a8c-b2d494dccd8d")
-	)
-	(no_connect
-		(at 260.35 68.58)
-		(uuid "80245efc-8f27-4cbb-9c74-dd694b20e044")
 	)
 	(no_connect
 		(at 293.37 30.48)
@@ -6002,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 55.88) (xy 265.43 50.8)
+			(xy 265.43 55.88) (xy 265.43 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6159,6 +6163,16 @@
 			(type default)
 		)
 		(uuid "245d725b-d921-4402-b7f8-8d3222747145")
+	)
+	(wire
+		(pts
+			(xy 265.43 53.34) (xy 265.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bd7d19-8366-48e6-9152-89b2af57bff2")
 	)
 	(wire
 		(pts
@@ -7222,6 +7236,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 53.34) (xy 265.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737df1cd-7ff9-4d90-8e95-f30cce9d6f68")
+	)
+	(wire
+		(pts
 			(xy 113.03 52.07) (xy 121.92 52.07)
 		)
 		(stroke
@@ -7952,6 +7976,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 68.58) (xy 262.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31c7d3a-2013-4a4c-9395-8f6c7196b849")
+	)
+	(wire
+		(pts
 			(xy 115.57 27.94) (xy 127 27.94)
 		)
 		(stroke
@@ -8232,7 +8266,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 66.04) (xy 262.89 71.12)
+			(xy 262.89 66.04) (xy 262.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8699,6 +8733,16 @@
 			(type default)
 		)
 		(uuid "ed62e71d-e352-44f0-81be-73151e15f377")
+	)
+	(wire
+		(pts
+			(xy 262.89 68.58) (xy 262.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efec8cb5-2028-4faf-bbe4-9bbfedfe595d")
 	)
 	(wire
 		(pts
@@ -15205,7 +15249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "ILO_fp:Yageo_ANT3216"
 			(at 120.65 196.85 0)
 			(effects
 				(font
