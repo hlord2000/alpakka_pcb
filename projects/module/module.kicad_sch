@@ -9141,7 +9141,7 @@
 		)
 		(uuid "14e315fb-34de-4155-9eb7-83164159d564")
 	)
-	(label "GP23"
+	(label "I2C_SCL"
 		(at 205.74 186.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9229,7 +9229,7 @@
 		)
 		(uuid "20347228-3cb3-4527-a314-9e4070ac32f4")
 	)
-	(label "GP20"
+	(label "UART1_TX"
 		(at 205.74 194.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9482,7 +9482,7 @@
 		)
 		(uuid "5ee8a5d2-774f-4d8c-8176-328dbf9d786b")
 	)
-	(label "GP23"
+	(label "I2C_SCL"
 		(at 93.98 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9504,7 +9504,7 @@
 		)
 		(uuid "66658e48-869c-4935-9c99-35f2bc74ac88")
 	)
-	(label "GP20"
+	(label "UART1_TX"
 		(at 93.98 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9526,7 +9526,7 @@
 		)
 		(uuid "69d337ba-c362-4d62-b195-e0cc28989eb1")
 	)
-	(label "GP21"
+	(label "UART1_RX"
 		(at 205.74 191.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9548,7 +9548,7 @@
 		)
 		(uuid "7352ab29-5fdb-4f5f-b4cb-a1b88e9fb013")
 	)
-	(label "UART_RX"
+	(label "UART0_RX"
 		(at 93.98 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9735,7 +9735,7 @@
 		)
 		(uuid "a91a2886-34f9-4513-b33c-19449082fa8a")
 	)
-	(label "GP21"
+	(label "UART1_RX"
 		(at 93.98 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9757,7 +9757,7 @@
 		)
 		(uuid "aea6a57e-64f3-4916-bd3e-a3604f3d8f29")
 	)
-	(label "GP22"
+	(label "I2C_SDA"
 		(at 93.98 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9768,7 +9768,7 @@
 		)
 		(uuid "aecbe5cf-408b-4db8-bb55-ef2b575d09aa")
 	)
-	(label "UART_TX"
+	(label "UART0_TX"
 		(at 158.75 171.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9900,7 +9900,7 @@
 		)
 		(uuid "d89cbd5b-2508-4060-98e1-e22b78de8de4")
 	)
-	(label "GP22"
+	(label "I2C_SDA"
 		(at 205.74 189.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9966,7 +9966,7 @@
 		)
 		(uuid "f30f5447-8a83-478d-b1d1-d9d06a667481")
 	)
-	(label "UART_TX"
+	(label "UART0_TX"
 		(at 93.98 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9988,7 +9988,7 @@
 		)
 		(uuid "fac195a0-702b-4b4d-a92a-b63aa66150ba")
 	)
-	(label "UART_RX"
+	(label "UART0_RX"
 		(at 158.75 173.99 0)
 		(fields_autoplaced yes)
 		(effects
