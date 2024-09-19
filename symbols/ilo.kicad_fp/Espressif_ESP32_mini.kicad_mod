@@ -76,7 +76,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "fcf9685f-c736-4636-aeb9-0769562b9e43")
 	)
 	(pad "0" smd rect
