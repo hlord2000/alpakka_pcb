@@ -6208,7 +6208,7 @@
 		)
 		(uuid "c5eb0a40-6c2d-438f-8c65-61fec4342c6c")
 	)
-	(label "BAT"
+	(label "GND"
 		(at 208.28 31.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6406,7 +6406,7 @@
 		)
 		(uuid "d3c10c91-055f-49a1-8d5f-c554b1c4eac3")
 	)
-	(label "GND"
+	(label "BAT"
 		(at 208.28 34.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11464,7 +11464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mount" ""
+		(property "Mount" "TH"
 			(at 213.36 31.75 0)
 			(effects
 				(font
@@ -11473,7 +11473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Export" ""
+		(property "Export" "yes"
 			(at 213.36 31.75 0)
 			(effects
 				(font
@@ -11483,6 +11483,15 @@
 			)
 		)
 		(property "Group" "Batt port"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5359610"
 			(at 213.36 31.75 0)
 			(effects
 				(font
