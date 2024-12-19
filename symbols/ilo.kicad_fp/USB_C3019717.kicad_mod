@@ -212,15 +212,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "b996e5cf-1772-42d7-bc6a-702944832912")
 	)
-	(model "${KIPRJMOD}/../../symbols/step/USB-C.step"
+	(model "${KIPRJMOD}/../../symbols/step/USB.step"
 		(offset
-			(xyz 0 -2.7 -1.7)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )
