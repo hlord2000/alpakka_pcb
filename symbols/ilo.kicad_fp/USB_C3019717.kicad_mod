@@ -182,7 +182,7 @@
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "db1e9980-95bc-4a91-b2df-2866b6c3a095")
 	)
 	(pad "S1" thru_hole oval
@@ -191,7 +191,7 @@
 		(drill oval 0.6 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "dc326942-9da0-4820-b368-6254bbf73042")
 	)
 	(pad "S1" thru_hole oval
@@ -200,7 +200,7 @@
 		(drill oval 0.6 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "177789a4-5f30-4cdf-b7e2-d45ddac76e17")
 	)
 	(pad "S1" thru_hole oval
@@ -209,7 +209,7 @@
 		(drill oval 0.6 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
+		(thermal_bridge_angle 0)
 		(uuid "b996e5cf-1772-42d7-bc6a-702944832912")
 	)
 	(model "${KIPRJMOD}/../../symbols/step/USB.step"
