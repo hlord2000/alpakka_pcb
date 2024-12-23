@@ -6027,6 +6027,12 @@
 		(uuid "100ddd3b-a155-49f4-97c6-8e077a517655")
 	)
 	(junction
+		(at 168.91 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "104549d9-4c0a-4fa5-a064-e3bac23b9c0e")
+	)
+	(junction
 		(at 63.5 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6609,20 +6615,12 @@
 		(uuid "c1ff745e-c1b3-4dca-8ca1-d7a50ce1d642")
 	)
 	(no_connect
-		(at 158.75 179.07)
-		(uuid "c53140d8-027f-4108-8983-0e4ba3e1bb7f")
-	)
-	(no_connect
 		(at 237.49 55.88)
 		(uuid "cdda30f5-8a73-45ea-b9a0-8af68c38cc99")
 	)
 	(no_connect
 		(at 97.79 198.12)
 		(uuid "d3b847bd-f17c-4366-b40e-a1058ec805e4")
-	)
-	(no_connect
-		(at 158.75 176.53)
-		(uuid "d7f6b3bb-dd17-432a-b0c3-68add7a2d1b0")
 	)
 	(no_connect
 		(at 52.07 196.85)
@@ -6981,6 +6979,16 @@
 			(type default)
 		)
 		(uuid "1eab7383-7e49-4d2d-9f09-a4da3884b1f2")
+	)
+	(wire
+		(pts
+			(xy 168.91 179.07) (xy 168.91 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213156d5-f66e-4e5d-9f92-7c6a2bd43a74")
 	)
 	(wire
 		(pts
@@ -7511,6 +7519,16 @@
 			(type default)
 		)
 		(uuid "4208ad11-a9fb-4eca-a257-873849f0a90c")
+	)
+	(wire
+		(pts
+			(xy 158.75 179.07) (xy 168.91 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44181168-c1a9-4f70-8715-1694d4ef93d8")
 	)
 	(wire
 		(pts
@@ -10239,7 +10257,7 @@
 		)
 		(uuid "02760e9d-66bc-4154-90e1-6127a5b6f37e")
 	)
-	(label "GP11"
+	(label "GP12"
 		(at 158.75 214.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10492,7 +10510,7 @@
 		)
 		(uuid "2e6f72ed-d9b7-4ef0-9c8e-fa19a09e26de")
 	)
-	(label "GP13"
+	(label "GP14"
 		(at 158.75 219.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10558,7 +10576,7 @@
 		)
 		(uuid "3fe5f31f-409d-485d-894d-f174cf0bb11a")
 	)
-	(label "GP6"
+	(label "GP7"
 		(at 158.75 201.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10568,6 +10586,17 @@
 			(justify left bottom)
 		)
 		(uuid "48c84a7f-a75e-4038-ac13-fe48b1263a5a")
+	)
+	(label "GP4"
+		(at 158.75 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49ebb314-d50a-4513-b0c2-3b4a6195d248")
 	)
 	(label "GP11"
 		(at 93.98 92.71 0)
@@ -10580,7 +10609,7 @@
 		)
 		(uuid "4b328250-9630-4621-bb2d-dd64ea1182a3")
 	)
-	(label "GP5"
+	(label "GP6"
 		(at 158.75 199.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10701,7 +10730,7 @@
 		)
 		(uuid "784a9b27-abcb-460e-a1d1-e3f56629a757")
 	)
-	(label "GP7"
+	(label "GP8"
 		(at 158.75 204.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10756,7 +10785,7 @@
 		)
 		(uuid "7fefe198-b2fc-4e50-b550-f3459d9e72d4")
 	)
-	(label "GP8"
+	(label "GP9"
 		(at 158.75 207.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10844,7 +10873,7 @@
 		)
 		(uuid "9edf656d-e689-40b8-bf92-f57c01e91cc9")
 	)
-	(label "GP4"
+	(label "GP5"
 		(at 158.75 196.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10987,7 +11016,7 @@
 		)
 		(uuid "c046332e-542c-450a-aa5e-deac477d84fc")
 	)
-	(label "GP9"
+	(label "GP10"
 		(at 158.75 209.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11031,7 +11060,7 @@
 		)
 		(uuid "ccca3815-88a8-4b9b-aeb7-cf06f773749c")
 	)
-	(label "GP14"
+	(label "GP15"
 		(at 234.95 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11053,7 +11082,7 @@
 		)
 		(uuid "cfb19844-5961-4f4c-863d-d67d3f107d0d")
 	)
-	(label "GP12"
+	(label "GP13"
 		(at 158.75 217.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11163,7 +11192,7 @@
 		)
 		(uuid "eabeffad-e3b3-45b8-bfea-ef27c701562d")
 	)
-	(label "GP10"
+	(label "GP11"
 		(at 158.75 212.09 0)
 		(fields_autoplaced yes)
 		(effects
