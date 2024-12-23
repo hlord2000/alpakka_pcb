@@ -12102,7 +12102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ILO_fp:0603_compact"
+		(property "Footprint" "ILO_fp:SMD_16x10"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -12147,7 +12147,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C341701"
+		(property "LCSC" "C5832340"
 			(at 294.64 21.59 0)
 			(effects
 				(font
