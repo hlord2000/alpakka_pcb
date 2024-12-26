@@ -3269,7 +3269,7 @@
 		(uuid "ece46305-de62-4283-9670-cc3399fe0937")
 	)
 	(no_connect
-		(at 214.63 161.544)
+		(at 204.724 163.83)
 		(uuid "0d7010f7-4aa2-4e86-8865-cfe389e1b706")
 	)
 	(no_connect
@@ -3293,7 +3293,7 @@
 		(uuid "28b0a17e-15df-4013-928b-c2055c07e1ca")
 	)
 	(no_connect
-		(at 214.503 159.004)
+		(at 204.724 161.29)
 		(uuid "3b1747d4-fda4-46b4-9938-e13b48d0035b")
 	)
 	(no_connect
@@ -3307,10 +3307,6 @@
 	(no_connect
 		(at 178.816 144.78)
 		(uuid "64f705ea-52ed-430c-851b-85b5c30b995a")
-	)
-	(no_connect
-		(at 29.21 113.03)
-		(uuid "68739ffa-e62b-43d5-948d-5342e89f8e0e")
 	)
 	(no_connect
 		(at 48.26 57.15)
@@ -3343,10 +3339,6 @@
 	(no_connect
 		(at 29.21 162.56)
 		(uuid "941169de-556f-4b0b-9e68-94b06c1a1ebb")
-	)
-	(no_connect
-		(at 29.21 115.57)
-		(uuid "9a2dd346-45e9-4023-9eee-be329db2bb70")
 	)
 	(no_connect
 		(at 178.816 147.32)
@@ -3626,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 159.004) (xy 214.503 159.004)
+			(xy 198.628 161.29) (xy 204.724 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 161.544) (xy 214.63 161.544)
+			(xy 198.628 163.83) (xy 204.724 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4459,7 +4451,7 @@
 		)
 		(uuid "40423434-dc54-4b39-bf72-968da9a266df")
 	)
-	(text "PCB ID"
+	(text "PCB GENERATION"
 		(exclude_from_sim no)
 		(at 192.024 152.654 0)
 		(effects
@@ -4511,9 +4503,9 @@
 		)
 		(uuid "5fff341a-23ef-402f-8836-061632ce90c5")
 	)
-	(text "Float = 0\nGND = 1\nVCC = 2"
+	(text "Ternary mask:\nFloat = 0\nGND = 1\nVCC = 2"
 		(exclude_from_sim no)
-		(at 224.79 170.18 0)
+		(at 224.79 169.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4638,6 +4630,16 @@
 			(justify left bottom)
 		)
 		(uuid "dac4f41c-fa66-4b34-888c-279a71a8aa8c")
+	)
+	(text "See generations.md"
+		(exclude_from_sim no)
+		(at 201.676 154.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc921dae-80dd-4e77-b59c-d081da8ab50c")
 	)
 	(label "A4"
 		(at 29.21 107.95 180)
@@ -5200,6 +5202,17 @@
 		)
 		(uuid "3c5f5a3a-71c4-4d28-bcf9-2b51c5bb9d79")
 	)
+	(label "A7"
+		(at 198.628 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c92b05b-88f6-484a-87b0-ae6128e3460a")
+	)
 	(label "GND"
 		(at 73.66 149.86 180)
 		(fields_autoplaced yes)
@@ -5508,6 +5521,17 @@
 		)
 		(uuid "6830a74c-7531-484e-ac5f-921662811c79")
 	)
+	(label "A6"
+		(at 198.628 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ad44ce6-ec21-4b47-bfd2-cb43938dba1a")
+	)
 	(label "SPI_CK"
 		(at 48.26 74.93 0)
 		(fields_autoplaced yes)
@@ -5705,6 +5729,17 @@
 			(justify right bottom)
 		)
 		(uuid "82dd107e-8a40-41bd-8fdd-e1aa5600f327")
+	)
+	(label "A6"
+		(at 29.21 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8940a3c3-f610-43cf-ad4f-93391d63d706")
 	)
 	(label "RUN"
 		(at 124.46 29.718 180)
@@ -6112,6 +6147,17 @@
 			(justify right bottom)
 		)
 		(uuid "c5eb0a40-6c2d-438f-8c65-61fec4342c6c")
+	)
+	(label "A7"
+		(at 29.21 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6343af8-0492-4370-84b9-417b708da25f")
 	)
 	(label "GND"
 		(at 208.28 31.75 180)
@@ -6706,30 +6752,6 @@
 			(justify left bottom)
 		)
 		(uuid "fff292df-71ad-434d-a5ba-32cc5ddb81c7")
-	)
-	(hierarchical_label "A11"
-		(shape input)
-		(at 207.645 161.544 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29f030ad-fcfb-49d1-962a-eb0dc61bf2b1")
-	)
-	(hierarchical_label "A10"
-		(shape input)
-		(at 207.645 159.004 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b310909e-2e01-4885-b9e6-c027d24e58a9")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
