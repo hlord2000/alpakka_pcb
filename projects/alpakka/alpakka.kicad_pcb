@@ -9581,7 +9581,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 46 "/A6")
 			(pinfunction "P6")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(clearance 0.127)
 			(zone_connect 2)
 			(uuid "91548ae8-ad53-407d-92cb-f5bf052df799")
@@ -9592,7 +9592,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 45 "/A7")
 			(pinfunction "P7")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(clearance 0.127)
 			(zone_connect 2)
 			(uuid "8220b8d6-b8f7-42a8-a0f7-eda7a0ad8fa7")
@@ -10602,7 +10602,7 @@
 				)
 			)
 		)
-		(property "Mount" "SMD"
+		(property "Mount" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10615,7 +10615,7 @@
 				)
 			)
 		)
-		(property "Export" "yes"
+		(property "Export" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
