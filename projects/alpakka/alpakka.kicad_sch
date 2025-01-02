@@ -12686,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mount" "SMD"
+		(property "Mount" ""
 			(at 163.322 74.422 0)
 			(effects
 				(font
@@ -12695,7 +12695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Export" "yes"
+		(property "Export" ""
 			(at 163.322 74.422 0)
 			(effects
 				(font
