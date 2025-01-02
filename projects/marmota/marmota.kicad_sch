@@ -6099,12 +6099,6 @@
 		(uuid "2ea2781d-cbcf-48d0-a10f-837849df6277")
 	)
 	(junction
-		(at 172.72 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "301ce040-2e56-462f-9bd7-65bd141b884d")
-	)
-	(junction
 		(at 81.28 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7642,16 +7636,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 184.15) (xy 172.72 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a12e8fc-e1fd-4a95-b8f1-5258768869a4")
-	)
-	(wire
-		(pts
 			(xy 80.01 166.37) (xy 80.01 170.18)
 		)
 		(stroke
@@ -7929,16 +7913,6 @@
 			(type default)
 		)
 		(uuid "5f419b0b-7851-4751-b8a7-230d1aeb976e")
-	)
-	(wire
-		(pts
-			(xy 172.72 181.61) (xy 172.72 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f760452-242e-44d6-89da-64c14eeb3540")
 	)
 	(wire
 		(pts
@@ -8479,16 +8453,6 @@
 			(type default)
 		)
 		(uuid "893eda83-40b5-4edd-8931-88598c1e4225")
-	)
-	(wire
-		(pts
-			(xy 158.75 181.61) (xy 172.72 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895a075f-793c-4a2a-804b-a914e4c177a3")
 	)
 	(wire
 		(pts
@@ -9169,16 +9133,6 @@
 			(type default)
 		)
 		(uuid "b4c8e410-bc7d-4e1b-85f4-09e85673b57c")
-	)
-	(wire
-		(pts
-			(xy 158.75 184.15) (xy 172.72 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b569371e-3428-4fe3-aa16-9d1d9d900dde")
 	)
 	(wire
 		(pts
@@ -10279,6 +10233,17 @@
 		)
 		(uuid "095897e8-457c-47c2-b9b4-627df8f01326")
 	)
+	(label "BAT+"
+		(at 158.75 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09d23637-66e6-48d7-8bac-58aec02baf4d")
+	)
 	(label "ADC2"
 		(at 93.98 138.43 0)
 		(fields_autoplaced yes)
@@ -10896,7 +10861,7 @@
 		(uuid "a3d2e585-781f-47b3-b3f3-5e4725759b4b")
 	)
 	(label "BAT+"
-		(at 172.72 172.72 90)
+		(at 158.75 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15073,7 +15038,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "47uF"
 			(at 311.15 41.91 0)
 			(effects
 				(font
@@ -15082,7 +15047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ILO_fp:0402_compact"
+		(property "Footprint" "ILO_fp:0603_compact"
 			(at 317.8048 36.83 0)
 			(effects
 				(font
@@ -15109,7 +15074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105226"
+		(property "LCSC" "C730416"
 			(at 318.77 40.64 0)
 			(effects
 				(font
@@ -19481,7 +19446,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "47uF"
 			(at 327.406 41.91 0)
 			(effects
 				(font
@@ -19490,7 +19455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ILO_fp:0402_compact"
+		(property "Footprint" "ILO_fp:0603_compact"
 			(at 323.6468 36.83 0)
 			(effects
 				(font
@@ -19517,7 +19482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105226"
+		(property "LCSC" "C730416"
 			(at 324.612 40.64 0)
 			(effects
 				(font
