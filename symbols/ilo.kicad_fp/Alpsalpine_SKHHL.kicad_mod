@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.75 0)
+		(at 0 -2.48 0)
 		(layer "F.SilkS")
 		(uuid "43d1b320-be08-4c34-893b-273664b3ea68")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Alpsalpine_SKHHL"
-		(at 0 -5.5 0)
+		(at 0 -4.23 0)
 		(layer "F.Fab")
 		(uuid "2646122b-034d-4817-af32-cf5ad01ca4c3")
 		(effects
@@ -26,7 +26,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -34,11 +34,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -46,11 +47,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -58,13 +60,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.75 -3.75)
-		(end -3.75 -4.25)
+		(start -3.75 -2.48)
+		(end -3.75 -2.98)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -73,8 +76,8 @@
 		(uuid "772b2560-c224-4933-9225-40be66422908")
 	)
 	(fp_line
-		(start -3.75 2.5)
-		(end -3.75 -1.25)
+		(start -3.75 3.77)
+		(end -3.75 0.02)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -83,8 +86,8 @@
 		(uuid "e23187f9-dcd6-499f-90d3-0eec00b87622")
 	)
 	(fp_line
-		(start -3.75 2.5)
-		(end 3.75 2.5)
+		(start -3.75 3.77)
+		(end 3.75 3.77)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -93,8 +96,8 @@
 		(uuid "83e6323e-c1d6-44e5-ace0-3d300f8821e3")
 	)
 	(fp_line
-		(start -2.25 -1.5)
-		(end 2.25 -1.5)
+		(start -2.25 -0.23)
+		(end 2.25 -0.23)
 		(stroke
 			(width 0.16)
 			(type default)
@@ -103,8 +106,8 @@
 		(uuid "146a8f0b-86d9-494b-a915-69ad8a8ecd15")
 	)
 	(fp_line
-		(start -1.75 2.5)
-		(end -1.75 3.5)
+		(start -1.75 3.77)
+		(end -1.75 4.77)
 		(stroke
 			(width 0.16)
 			(type default)
@@ -113,8 +116,8 @@
 		(uuid "d5a5e4bd-ad8d-4b48-b704-564bcee3f904")
 	)
 	(fp_line
-		(start -1.75 3.5)
-		(end 1.75 3.5)
+		(start -1.75 4.77)
+		(end 1.75 4.77)
 		(stroke
 			(width 0.16)
 			(type default)
@@ -123,8 +126,8 @@
 		(uuid "9764dd6c-3a90-4547-b9a9-be4a97bf05e0")
 	)
 	(fp_line
-		(start 1.75 3.5)
-		(end 1.75 2.5)
+		(start 1.75 4.77)
+		(end 1.75 3.77)
 		(stroke
 			(width 0.16)
 			(type default)
@@ -133,8 +136,8 @@
 		(uuid "48e598e2-c749-4035-968e-853f120b4777")
 	)
 	(fp_line
-		(start 3.75 -3.75)
-		(end 3.75 -4.25)
+		(start 3.75 -2.48)
+		(end 3.75 -2.98)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -143,8 +146,8 @@
 		(uuid "a7928873-604e-41b4-8f3c-a9332a26491c")
 	)
 	(fp_line
-		(start 3.75 2.5)
-		(end 3.75 -1.25)
+		(start 3.75 3.77)
+		(end 3.75 0.02)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -153,7 +156,7 @@
 		(uuid "89b31927-f663-4a3a-a530-c0fd8571c8d7")
 	)
 	(pad "" thru_hole circle
-		(at -3.5 -2.5)
+		(at -3.5 -1.23)
 		(size 2 2)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -161,7 +164,7 @@
 		(uuid "1159df6c-6629-41f1-a8b5-e0c16ac2435d")
 	)
 	(pad "" thru_hole circle
-		(at 3.5 -2.5)
+		(at 3.5 -1.23)
 		(size 2 2)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -169,7 +172,7 @@
 		(uuid "267be05a-0275-4937-bf0c-a7a54781ce5a")
 	)
 	(pad "1" thru_hole circle
-		(at 2.25 0)
+		(at 2.25 1.27)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -177,7 +180,7 @@
 		(uuid "d4b7535d-26d7-448d-9ab0-3a8da52b3f70")
 	)
 	(pad "2" thru_hole circle
-		(at -2.25 0)
+		(at -2.25 1.27)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -186,7 +189,7 @@
 	)
 	(model "${KIPRJMOD}/../../symbols/step/SKHHLM.step"
 		(offset
-			(xyz 0 -0.5 0)
+			(xyz 0 -1.77 0)
 		)
 		(scale
 			(xyz 1 1 1)
