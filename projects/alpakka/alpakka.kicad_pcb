@@ -10120,7 +10120,7 @@
 	(footprint "ILO_fp:NPTH_2mm"
 		(layer "F.Cu")
 		(uuid "84b8fefd-353d-4b19-a743-e4350b2b1d94")
-		(at 126.475 83)
+		(at 126.675 83.315)
 		(descr "Mounting Hole 4mm, no annular")
 		(tags "mounting hole 4mm no annular")
 		(property "Reference" "REF**"
@@ -10423,7 +10423,7 @@
 	(footprint "ILO_fp:NPTH_2mm"
 		(layer "F.Cu")
 		(uuid "94744071-857d-4624-8905-aecdd5a2dadd")
-		(at 126.475 67)
+		(at 126.675 66.685)
 		(descr "Mounting Hole 4mm, no annular")
 		(tags "mounting hole 4mm no annular")
 		(property "Reference" "REF**"
