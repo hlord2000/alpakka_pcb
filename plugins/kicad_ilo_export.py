@@ -140,12 +140,15 @@ class InputLabsExportJLCPCB(InputLabsExport):
         footprints = self.get_footprints()
         for footprint in sorted(footprints, key=lambda x: x.GetReference()):
             position_x, position_y = footprint.GetPosition()
+            rotation = int(footprint.GetOrientation().AsDegrees())
+            if footprint.IsFlipped():
+                rotation = (rotation + 180) % 360  # Kicad and JLCPCB flip components differently.
             writer.writerow({
                 'Designator': footprint.GetReference(),
                 'Mid X': position_x /  1000000,
                 'Mid Y': position_y / -1000000,
                 'Layer': 'bottom' if footprint.IsFlipped() else 'top',
-                'Rotation': int(footprint.GetOrientation().AsDegrees()),
+                'Rotation': rotation,
             })
 
     def export_bom(self):
