@@ -4674,7 +4674,7 @@
 		)
 		(uuid "003b07ec-bcb5-4f7c-9ca1-ac406d2c39cf")
 	)
-	(label "GP6"
+	(label "GP7"
 		(at 118.11 100.584 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4840,7 +4840,7 @@
 		(uuid "1105a9a1-43ca-4176-b399-d25693bea6ae")
 	)
 	(label "GP9"
-		(at 25.4 64.77 0)
+		(at 25.4 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4873,7 +4873,7 @@
 		(uuid "13d704bb-c171-4578-8772-d0d99d3c98cd")
 	)
 	(label "GP11"
-		(at 25.4 69.85 0)
+		(at 25.4 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5126,7 +5126,7 @@
 		(uuid "2c46ef7f-4654-49e2-bd10-812e22bf8449")
 	)
 	(label "GP13"
-		(at 25.4 74.93 0)
+		(at 25.4 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5356,17 +5356,6 @@
 		)
 		(uuid "537db311-9408-437b-ad77-c1f0915724c7")
 	)
-	(label "GP6"
-		(at 25.4 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "544c997f-e5bc-404e-9867-0a155b13c056")
-	)
 	(label "GND"
 		(at 158.75 101.346 180)
 		(fields_autoplaced yes)
@@ -5378,7 +5367,7 @@
 		)
 		(uuid "57c9dc84-c851-4016-a69b-b0084601b269")
 	)
-	(label "GP11"
+	(label "GP12"
 		(at 122.174 120.904 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5456,7 +5445,7 @@
 		(uuid "5fa0282e-2531-43ac-81aa-adf62ec4b4ab")
 	)
 	(label "GP8"
-		(at 25.4 62.23 0)
+		(at 25.4 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5466,7 +5455,7 @@
 		)
 		(uuid "63696c28-2636-4ef9-93d2-9821c2b2e819")
 	)
-	(label "GP9"
+	(label "GP10"
 		(at 118.11 89.154 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5510,7 +5499,7 @@
 		)
 		(uuid "662e9aa7-0efd-4d6f-91f6-b4457f8ebead")
 	)
-	(label "GP12"
+	(label "GP13"
 		(at 156.21 66.548 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5599,7 +5588,7 @@
 		(uuid "711bda6e-b524-42a5-a1bf-c0207670dba0")
 	)
 	(label "GP12"
-		(at 25.4 72.39 0)
+		(at 25.4 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5664,7 +5653,7 @@
 		)
 		(uuid "7b50ff5c-4165-4e02-b3c5-dc2ad2c8cf41")
 	)
-	(label "GP13"
+	(label "GP14"
 		(at 156.21 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5708,7 +5697,7 @@
 		)
 		(uuid "81d43330-fc0e-4a0f-8eae-9dee44787dd4")
 	)
-	(label "GP7"
+	(label "GP8"
 		(at 118.11 96.774 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6050,7 +6039,7 @@
 		(uuid "b92251ec-ee2e-4240-b3dd-48827abe6284")
 	)
 	(label "GP7"
-		(at 25.4 59.69 0)
+		(at 25.4 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6248,7 +6237,7 @@
 		(uuid "ccdb965e-8b8d-4dd4-8234-f717d0e9594a")
 	)
 	(label "GP10"
-		(at 25.4 67.31 0)
+		(at 25.4 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6533,6 +6522,17 @@
 		)
 		(uuid "e8dcd377-c6c3-43a8-909e-231e6d24f897")
 	)
+	(label "GP14"
+		(at 25.4 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea13c56a-562c-4262-8193-d2bdfd2bfacc")
+	)
 	(label "GND"
 		(at 77.216 46.99 180)
 		(fields_autoplaced yes)
@@ -6544,7 +6544,7 @@
 		)
 		(uuid "ead892cd-1fb9-4dfe-a8c6-363c6923814b")
 	)
-	(label "GP8"
+	(label "GP9"
 		(at 118.11 92.964 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6709,7 +6709,7 @@
 		)
 		(uuid "fee42442-d7e6-46a1-b77d-5f112cbf38ea")
 	)
-	(label "GP10"
+	(label "GP11"
 		(at 122.174 118.364 180)
 		(fields_autoplaced yes)
 		(effects
