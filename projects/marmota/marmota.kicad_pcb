@@ -14884,6 +14884,88 @@
 	)
 	(footprint "ILO_fp:Pad_1mm"
 		(layer "B.Cu")
+		(uuid "bec07c99-06c6-4006-865a-c8a18155793b")
+		(at 67.625 46.675 180)
+		(property "Reference" "REF**"
+			(at 1 0 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "97cc86b2-c5f1-4c3b-8ca3-a1ab94575014")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.153)
+				)
+				(justify left mirror)
+			)
+		)
+		(property "Value" "Pad_1mm"
+			(at 0 3.8 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a25c8c1-174e-429f-9118-0c84276e8aa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "ILO_fp:Pad_1mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "180176e5-8a7b-48ce-b536-a35d0b0125a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1dae24f-ca0a-464f-b7de-cbcc8ad4884b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd6e77ed-2c29-41e0-87ab-62484f5d6524")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(zone_connect 2)
+		(pad "1" smd circle
+			(at 0 0 180)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 7 "+3V3")
+			(uuid "c1ac65b3-6c27-49c3-bb90-9a43549bb16c")
+		)
+	)
+	(footprint "ILO_fp:Pad_1mm"
+		(layer "B.Cu")
 		(uuid "ce37199c-ecc4-4da5-ab63-6d327d74cfc5")
 		(at 56.65 38.35 180)
 		(property "Reference" "REF**"
@@ -15159,7 +15241,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 68.95 47.1) (xy 67.35 45.5) (xy 67.05 45.5) (xy 65.45 47.1)
+			(xy 69.15 47.3) (xy 67.35 45.5) (xy 67.05 45.5) (xy 65.25 47.3)
 		)
 		(stroke
 			(width 0)
@@ -15614,6 +15696,19 @@
 				(bold yes)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 66.018927 46.149868 270)
+		(layer "B.SilkS")
+		(uuid "a8fe70be-5c0e-4222-b4b6-f45579d01974")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "VBUS"
