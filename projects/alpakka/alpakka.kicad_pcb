@@ -18680,8 +18680,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "GND"
-		(at 128 77.5 0)
+	(gr_text "VCC"
+		(at 127.95 77.5 0)
 		(layer "B.SilkS")
 		(uuid "0b8bb703-6982-4507-ac8b-a1d1c11cad0c")
 		(effects
@@ -18764,8 +18764,8 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "VCC"
-		(at 71.7 72.5 0)
+	(gr_text "GND"
+		(at 71.85 72.5 0)
 		(layer "B.SilkS")
 		(uuid "588ac581-52d8-4595-aa2c-b76c0f7e3d00")
 		(effects
@@ -18776,8 +18776,8 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "GND"
-		(at 79.05 80.95 90)
+	(gr_text "VCC"
+		(at 79.05 81 90)
 		(layer "B.SilkS")
 		(uuid "67bccc47-89a1-4755-8868-078202c0e834")
 		(effects
@@ -18860,8 +18860,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "VCC"
-		(at 129.15 72.5 0)
+	(gr_text "GND"
+		(at 129.3 72.5 0)
 		(layer "B.SilkS")
 		(uuid "b0809a18-cd3d-42d0-a5f4-e63fdbe3903a")
 		(effects
@@ -18920,8 +18920,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "VCC"
-		(at 74.05 79.8 90)
+	(gr_text "GND"
+		(at 74.05 79.65 90)
 		(layer "B.SilkS")
 		(uuid "d0bf6238-f70c-4aad-b4cb-15005592af6a")
 		(effects
@@ -18932,8 +18932,8 @@
 			(justify left mirror)
 		)
 	)
-	(gr_text "GND"
-		(at 70.55 77.5 0)
+	(gr_text "VCC"
+		(at 70.45 77.5 0)
 		(layer "B.SilkS")
 		(uuid "d854f6b2-2abb-421a-9dd4-2218d729d624")
 		(effects
