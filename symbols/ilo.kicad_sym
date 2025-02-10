@@ -994,7 +994,7 @@
 			(pin input line
 				(at -7.62 3.81 0)
 				(length 2.54)
-				(name "UART_TX"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 			(pin input line
 				(at -7.62 1.27 0)
 				(length 2.54)
-				(name "UART_RX"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1030,7 +1030,7 @@
 			(pin input line
 				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1048,7 +1048,7 @@
 			(pin input line
 				(at -7.62 -3.81 0)
 				(length 2.54)
-				(name "RUN"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
