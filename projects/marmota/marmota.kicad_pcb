@@ -23251,6 +23251,7 @@
 	(zone
 		(net 2)
 		(net_name "+1V1")
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "220745d6-ba0f-44c5-9444-e0a75251609c")
 		(hatch edge 0.5)
@@ -23328,6 +23329,7 @@
 	(zone
 		(net 7)
 		(net_name "+3V3")
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "87260f91-12a5-4c2c-9527-66ee97dfdfc7")
 		(hatch edge 0.5)
