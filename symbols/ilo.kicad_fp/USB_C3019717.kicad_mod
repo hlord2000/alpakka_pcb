@@ -178,8 +178,8 @@
 	)
 	(pad "S1" thru_hole oval
 		(at -5.62 -1.4)
-		(size 1 1.8)
-		(drill oval 0.6 1.4)
+		(size 1 1.6)
+		(drill oval 0.6 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 0)
@@ -187,8 +187,8 @@
 	)
 	(pad "S1" thru_hole oval
 		(at -5.62 2.6)
-		(size 1 2.2)
-		(drill oval 0.6 1.8)
+		(size 1 2)
+		(drill oval 0.6 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 0)
@@ -196,8 +196,8 @@
 	)
 	(pad "S1" thru_hole oval
 		(at 5.62 -1.4)
-		(size 1 1.8)
-		(drill oval 0.6 1.4)
+		(size 1 1.6)
+		(drill oval 0.6 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 0)
@@ -205,8 +205,8 @@
 	)
 	(pad "S1" thru_hole oval
 		(at 5.62 2.6)
-		(size 1 2.2)
-		(drill oval 0.6 1.8)
+		(size 1 2)
+		(drill oval 0.6 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 0)
