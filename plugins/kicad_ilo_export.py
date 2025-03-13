@@ -38,12 +38,12 @@ class InputLabsExport(pcbnew.ActionPlugin):
         plot_options.SetPlotValue(False)
         plot_options.SetPlotReference(True)
         plot_options.SetPlotInvisibleText(False)
-        # plot_options.SetExcludeEdgeLayer(True)  # Deprecated ?
         plot_options.SetSketchPadsOnFabLayers(False)
         plot_options.SetUseAuxOrigin(False)
         plot_options.SetAutoScale(True)
         plot_options.SetMirror(False)
         plot_options.SetNegative(False)
+        plot_options.SetDrillMarksType(pcbnew.DRILL_MARKS_NO_DRILL_SHAPE)
         # Gerber options.
         plot_options.SetUseGerberProtelExtensions(True)
         plot_options.SetCreateGerberJobFile(False)
