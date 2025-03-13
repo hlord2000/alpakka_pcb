@@ -6997,7 +6997,7 @@
 		(layer "F.Cu")
 		(uuid "8348e407-6c5b-43d2-bd0f-c59890f4277d")
 		(at 68.85 76.875)
-		(property "Reference" "R54"
+		(property "Reference" "R50"
 			(at 0 0 90)
 			(layer "Cmts.User")
 			(uuid "9953f6b8-5223-4e4a-a70e-f7f038b9255b")
