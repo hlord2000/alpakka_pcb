@@ -1,7 +1,7 @@
 (footprint "Alpsalpine_EC10E"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3ec92b00-3b08-4d29-a173-9b976c219cf9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -118,19 +105,6 @@
 		(layer "F.SilkS")
 		(uuid "90dc707c-73de-4ee4-be35-a297b0f33cc8")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "55f7910d-5251-440b-96f2-de626a9904df")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "" thru_hole circle
 		(at -5.1 -1)
 		(size 2.7 2.7)
@@ -147,7 +121,7 @@
 		(remove_unused_layers no)
 		(uuid "50548da1-f4a1-4515-82fc-f1e0d7958e4a")
 	)
-	(pad "1" thru_hole circle
+	(pad "A" thru_hole circle
 		(at -2.5 1)
 		(size 1.7 1.7)
 		(drill 1)
@@ -155,7 +129,7 @@
 		(remove_unused_layers no)
 		(uuid "ff8eeab7-fc44-4b5f-85d5-79857e5833a0")
 	)
-	(pad "2" thru_hole circle
+	(pad "B" thru_hole circle
 		(at 0 1)
 		(size 1.7 1.7)
 		(drill 1)
@@ -163,7 +137,7 @@
 		(remove_unused_layers no)
 		(uuid "0431eb8f-5566-4438-815b-b09315f30d3c")
 	)
-	(pad "3" thru_hole circle
+	(pad "C" thru_hole circle
 		(at 2.5 1)
 		(size 1.7 1.7)
 		(drill 1)
@@ -171,6 +145,7 @@
 		(remove_unused_layers no)
 		(uuid "d731dd49-0473-4385-840a-e5feaa66a551")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../../symbols/step/EC10E1220503.step"
 		(offset
 			(xyz 0 -1.4 11)
