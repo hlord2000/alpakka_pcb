@@ -9599,7 +9599,7 @@
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
-			(at 0 -1.43 180)
+			(at 1.05 -1.55 180)
 			(layer "F.SilkS")
 			(uuid "97807c1c-9ca7-4948-a0ce-f402d765ec71")
 			(effects
